@@ -4,9 +4,6 @@ import favicon from 'serve-favicon'
 import dotenv from 'dotenv'
 import carsRouter from './routes/cars.js'
 
-// import the router from your routes file
-
-
 dotenv.config()
 
 const PORT = process.env.PORT || 3000
