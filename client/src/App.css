@@ -10,3 +10,253 @@
     overflow-x: hidden;
     padding-bottom: 50px;
 }
+
+/* Create Car Page */
+.create-car {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.car-preview {
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    font-size: 40px;
+    border: 3px solid white;
+    transition: background-color 0.3s ease;
+}
+
+.price-display {
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.feature-section {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.feature-section h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.options-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.option-btn {
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.option-btn.selected {
+    border: 3px solid gold;
+    font-weight: bold;
+    box-shadow: 0 0 10px gold;
+}
+
+.submit-btn {
+    margin-top: 30px;
+    padding: 15px 40px;
+    background: gold;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.submit-btn:hover {
+    transform: scale(1.05);
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    background: rgba(255,0,0,0.1);
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* View Cars Page */
+.view-cars {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.view-cars h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.cars-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.car-card {
+    background: rgba(0,0,0,0.7);
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.car-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.car-card p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.8);
+}
+
+.card-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.card-buttons button {
+    padding: 10px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    flex: 1;
+    font-weight: bold;
+    font-size: 14px;
+    transition: opacity 0.2s ease;
+}
+
+.card-buttons button:first-child {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.card-buttons button:nth-child(2) {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.card-buttons button:last-child {
+    background: rgba(139, 0, 0, 0.7);
+    color: white;
+    border: 1px solid darkred;
+}
+
+.card-buttons button:hover {
+    opacity: 0.8;
+}
+
+/* Car Details Page */
+.car-details {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.car-details h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.details-card {
+    background: rgba(0,0,0,0.7);
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.details-card p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: rgba(255,255,255,0.85);
+}
+
+.details-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.details-buttons button {
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: opacity 0.2s ease;
+}
+
+.details-buttons button:first-child {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.details-buttons button:last-child {
+    background: rgba(139, 0, 0, 0.7);
+    color: white;
+    border: 1px solid darkred;
+}
+
+.details-buttons button:hover {
+    opacity: 0.8;
+}
+
+/* Edit Car Page */
+.edit-car {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.edit-car h1 {
+    margin-bottom: 20px;
+}
