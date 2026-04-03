@@ -40,7 +40,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![Video Walkthrough](https://i.imgur.com/Kp41VkU.gif)
+[![Video Walkthrough](https://i.imgur.com/Kp41VkUh.jpg)](https://i.imgur.com/Kp41VkU.gif)
+
+[Watch the full walkthrough GIF](https://i.imgur.com/Kp41VkU.gif)
 
 GIF created with Kap
 
